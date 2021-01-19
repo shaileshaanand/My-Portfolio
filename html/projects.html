@@ -97,6 +97,28 @@
   <script src="js/main.js"></script>
   <script src="js/project.js"></script>
 
+  <script>
+     $('form').on('submit',(e)=>{
+        e.preventDefault();//dsabling the default browser behaviour
+
+        const email = $('#email').val().trim();
+        const subject = $('#subject').val().trim();
+        const text = $('#text').val().trim();
+
+        //sending these data to server
+        const data ={
+            email,
+            subject,
+            text
+        };
+
+        $.post('/email',data,function(){
+            console.log('Server received our data');
+        })
+
+    })
+  </script>
+
 </body>
 
 </html>
