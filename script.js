@@ -35,7 +35,7 @@ app.post('/email',(req,res)=>{
 
 app.get('/',(req,res)=>{
     console.log(__dirname)
-    res.sendFile(path.join(__dirname,"","index.html"));
+    res.sendFile(path.join(__dirname,"html","index.html"));
 })
 
 
