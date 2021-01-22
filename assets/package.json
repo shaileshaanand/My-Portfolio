@@ -1,0 +1,20 @@
+{
+  "name": "awesome-portfolio-websites",
+  "version": "1.0.0",
+  "description": "<h1 align= \"center\"><b>Awesome Portfolio Websites</b></h1>",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "nodemailer-mailgun-transport": "^2.0.2"
+  },
+  "engines": {
+    "node": "v12.18.3"
+  }
+}
