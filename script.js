@@ -5,7 +5,9 @@ const log = console.log;
 const app = express();
 const path = require("path");
 
-const PORT = 5500;
+//const PORT = 5500;
+let port = process.env.PORT;
+
 
 //data parsing
 app.use(express.urlencoded({
@@ -43,4 +45,7 @@ app.get('/',(req,res)=>{
 //     res.status(204);//to send html file to server for displaying it on frontend
 // });
 
-app.listen(PORT,()=> log("server is starting on PORT, ",5500));
+if (port == null || port == "") {
+    port = 8000;
+    app.listen(port,()=> log("server is starting on PORT, ",8000));
+  }

@@ -18,70 +18,71 @@ const research = [
         researchYr : 2020,
         citebox : "#popup1",
         image : "images/research-page/inteferenceNetwork.png"
-    },
-
-    {
-        title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
-        authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "#popup2",
-        image : "images/research-page/crossLingual.png"
-    },
-
-    {
-        title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
-        authors : "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "#popup3",
-        image : "images/research-page/wordRepresentation.png"
-    },
-
-    {
-        title : "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
-        authors : "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
-        conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
-        researchYr : 2020,
-        citebox : "#popup4",
-        image : "images/research-page/dialogueState.png"
-    },
-
-    {
-        title : "Dual Super-Resolution Learning for Semantic Segmentation",
-        authors : "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "#popup5",
-        image : "images/research-page/semanticSegmentation.png"
-    },
-
-    {
-        title : "Deep Unfolding Network for Image Super-Resolution",
-        authors : "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "#popup6",
-        image : "images/research-page/deepNetwork.png"
-    },
-
-    {
-        title : "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
-        authors : "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "#popup7",
-        image : "images/research-page/imageDecomposition.png"
-    },
-
-    {
-        title : "Forward and Backward Information Retention for Accurate Binary Neural Networks",
-        authors : "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
-        conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
-        researchYr : 2020,
-        citebox : "#popup8",
-        image : "images/research-page/neuralNetworks.jpg"
     }
+    // },
+
+    // {
+    //     title : "A Call for More Rigor in Unsupervised Cross-lingual Learning",
+    //     authors : "Mikel Artetxe, Sebastian Ruder, Dani Yogatama, Gorka Labaka and Eneko Agirre",
+    //     conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
+    //     researchYr : 2020,
+    //     citebox : "#popup2",
+    //     image : "images/research-page/crossLingual.png"
+    // },
+
+    // {
+    //     title : "A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks",
+    //     authors : "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
+    //     conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
+    //     researchYr : 2020,
+    //     citebox : "#popup3",
+    //     image : "images/research-page/wordRepresentation.png"
+    // },
+
+    // {
+    //     title : "A Contextual Hierarchical Attention Network with Adaptive Objective for Dialogue State Tracking",
+    //     authors : "Yong Shan, Zekang Li, Jinchao Zhang, Fandong Meng, Yang Feng, Cheng Niu and Jie Zhou",
+    //     conferences : "The 58th Annual Meeting of the Association for Computational Linguistics",
+    //     researchYr : 2020,
+    //     citebox : "#popup4",
+    //     image : "images/research-page/dialogueState.png"
+    // },
+
+    // {
+    //     title : "Dual Super-Resolution Learning for Semantic Segmentation",
+    //     authors : "Wang, Li and Li, Dong and Zhu, Yousong and Tian, Lu and Shan, Yi",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "#popup5",
+    //     image : "images/research-page/semanticSegmentation.png"
+    // },
+
+    // {
+    //     title : "Deep Unfolding Network for Image Super-Resolution",
+    //     authors : "Zhang, Kai and Van Gool, Luc and Timofte, Radu",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "#popup6",
+    //     image : "images/research-page/deepNetwork.png"
+    // },
+
+    // {
+    //     title : "Unsupervised Learning for Intrinsic Image Decomposition From a Single Image",
+    //     authors : "Liu, Yunfei and Li, Yu and You, Shaodi and Lu, Feng",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "#popup7",
+    //     image : "images/research-page/imageDecomposition.png"
+    // },
+
+    // {
+    //     title : "Forward and Backward Information Retention for Accurate Binary Neural Networks",
+    //     authors : "Qin, Haotong and Gong, Ruihao and Liu, Xianglong and Shen, Mingzhu and Wei, Ziran and Yu, Fengwei and Song, Jingkuan",
+    //     conferences : "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    //     researchYr : 2020,
+    //     citebox : "#popup8",
+    //     image : "images/research-page/neuralNetworks.jpg"
+    // }
 ];
 
 const cite1 = [{
